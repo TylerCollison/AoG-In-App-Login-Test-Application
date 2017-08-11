@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F5145DF1F190D4200ACCE51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5145DE1F190D4200ACCE51 /* AppDelegate.swift */; };
+		2F5145E11F190D4200ACCE51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5145E01F190D4200ACCE51 /* ViewController.swift */; };
+		2F5145E41F190D4200ACCE51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5145E21F190D4200ACCE51 /* Main.storyboard */; };
+		2F5145E61F190D4200ACCE51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5145E51F190D4200ACCE51 /* Assets.xcassets */; };
+		2F5145E91F190D4200ACCE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5145E71F190D4200ACCE51 /* LaunchScreen.storyboard */; };
+		2F5145F41F190D4200ACCE51 /* BofA_Test_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5145F31F190D4200ACCE51 /* BofA_Test_ApplicationTests.swift */; };
+		2F5145FF1F190D4200ACCE51 /* BofA_Test_ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5145FE1F190D4200ACCE51 /* BofA_Test_ApplicationUITests.swift */; };
+		2FCAA1331F224A4D0056BCEB /* AOGAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAA1321F224A4D0056BCEB /* AOGAuthentication.swift */; };
+		2FCAA1351F224B570056BCEB /* DeepLinkProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAA1341F224B570056BCEB /* DeepLinkProcessor.swift */; };
+		2FCAA1371F224FC00056BCEB /* AOGDeepLinkProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAA1361F224FBF0056BCEB /* AOGDeepLinkProcessor.swift */; };
+		2FCAA1391F2254730056BCEB /* AuthenticationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAA1381F2254730056BCEB /* AuthenticationRequest.swift */; };
+		2FCAA1401F2262340056BCEB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAA13F1F2262340056BCEB /* Request.swift */; };
+		2FFA66191F30F360002EC388 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFA66181F30F360002EC388 /* NotificationCenter.framework */; };
+		2FFA661C1F30F360002EC388 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA661B1F30F360002EC388 /* TodayViewController.swift */; };
+		2FFA661F1F30F360002EC388 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFA661D1F30F360002EC388 /* MainInterface.storyboard */; };
+		2FFA66231F30F360002EC388 /* BoA Google Assistant Quick Login.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2FFA66161F30F360002EC388 /* BoA Google Assistant Quick Login.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2FFA662A1F30F99E002EC388 /* AOGSetupDeepLinkProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA66291F30F99E002EC388 /* AOGSetupDeepLinkProcessor.swift */; };
+		2FFA662C1F30FFA3002EC388 /* AOGAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAA1321F224A4D0056BCEB /* AOGAuthentication.swift */; };
+		2FFA662D1F30FFB5002EC388 /* AuthenticationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAA1381F2254730056BCEB /* AuthenticationRequest.swift */; };
+		2FFA662E1F30FFBE002EC388 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAA13F1F2262340056BCEB /* Request.swift */; };
+		2FFA66341F310E13002EC388 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA66331F310E13002EC388 /* Constants.swift */; };
+		2FFA66351F310EC5002EC388 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA66331F310E13002EC388 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F5145F01F190D4200ACCE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F5145D31F190D4100ACCE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F5145DA1F190D4100ACCE51;
+			remoteInfo = "BofA Test Application";
+		};
+		2F5145FB1F190D4200ACCE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F5145D31F190D4100ACCE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F5145DA1F190D4100ACCE51;
+			remoteInfo = "BofA Test Application";
+		};
+		2FFA66211F30F360002EC388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F5145D31F190D4100ACCE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FFA66151F30F360002EC388;
+			remoteInfo = "BoA Google Assistant Quick Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2FFA66271F30F360002EC388 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2FFA66231F30F360002EC388 /* BoA Google Assistant Quick Login.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F5145DB1F190D4200ACCE51 /* BofA Test Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BofA Test Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5145DE1F190D4200ACCE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F5145E01F190D4200ACCE51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F5145E31F190D4200ACCE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F5145E51F190D4200ACCE51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F5145E81F190D4200ACCE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F5145EA1F190D4200ACCE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5145EF1F190D4200ACCE51 /* BofA Test ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BofA Test ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5145F31F190D4200ACCE51 /* BofA_Test_ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BofA_Test_ApplicationTests.swift; sourceTree = "<group>"; };
+		2F5145F51F190D4200ACCE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5145FA1F190D4200ACCE51 /* BofA Test ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BofA Test ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5145FE1F190D4200ACCE51 /* BofA_Test_ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BofA_Test_ApplicationUITests.swift; sourceTree = "<group>"; };
+		2F5146001F190D4200ACCE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCAA1321F224A4D0056BCEB /* AOGAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AOGAuthentication.swift; sourceTree = "<group>"; };
+		2FCAA1341F224B570056BCEB /* DeepLinkProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepLinkProcessor.swift; sourceTree = "<group>"; };
+		2FCAA1361F224FBF0056BCEB /* AOGDeepLinkProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AOGDeepLinkProcessor.swift; sourceTree = "<group>"; };
+		2FCAA1381F2254730056BCEB /* AuthenticationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationRequest.swift; sourceTree = "<group>"; };
+		2FCAA13F1F2262340056BCEB /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		2FFA66161F30F360002EC388 /* BoA Google Assistant Quick Login.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BoA Google Assistant Quick Login.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFA66181F30F360002EC388 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		2FFA661B1F30F360002EC388 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		2FFA661E1F30F360002EC388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2FFA66201F30F360002EC388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FFA66291F30F99E002EC388 /* AOGSetupDeepLinkProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AOGSetupDeepLinkProcessor.swift; sourceTree = "<group>"; };
+		2FFA66311F3104AA002EC388 /* BofA Test Application.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BofA Test Application.entitlements"; sourceTree = "<group>"; };
+		2FFA66321F310509002EC388 /* BoA Google Assistant Quick Login.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BoA Google Assistant Quick Login.entitlements"; sourceTree = "<group>"; };
+		2FFA66331F310E13002EC388 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F5145D81F190D4100ACCE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5145EC1F190D4200ACCE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5145F71F190D4200ACCE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FFA66131F30F360002EC388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFA66191F30F360002EC388 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F5145D21F190D4100ACCE51 = {
+			isa = PBXGroup;
+			children = (
+				2FFA66331F310E13002EC388 /* Constants.swift */,
+				2FCAA13E1F225FB00056BCEB /* AOG */,
+				2FCAA13C1F225F6B0056BCEB /* JSONRequests */,
+				2FCAA13D1F225F900056BCEB /* DeepLinking */,
+				2F5145DD1F190D4200ACCE51 /* BofA Test Application */,
+				2F5145F21F190D4200ACCE51 /* BofA Test ApplicationTests */,
+				2F5145FD1F190D4200ACCE51 /* BofA Test ApplicationUITests */,
+				2FFA661A1F30F360002EC388 /* BoA Google Assistant Quick Login */,
+				2FFA66171F30F360002EC388 /* Frameworks */,
+				2F5145DC1F190D4200ACCE51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F5145DC1F190D4200ACCE51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F5145DB1F190D4200ACCE51 /* BofA Test Application.app */,
+				2F5145EF1F190D4200ACCE51 /* BofA Test ApplicationTests.xctest */,
+				2F5145FA1F190D4200ACCE51 /* BofA Test ApplicationUITests.xctest */,
+				2FFA66161F30F360002EC388 /* BoA Google Assistant Quick Login.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F5145DD1F190D4200ACCE51 /* BofA Test Application */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA66311F3104AA002EC388 /* BofA Test Application.entitlements */,
+				2F5145DE1F190D4200ACCE51 /* AppDelegate.swift */,
+				2F5145E01F190D4200ACCE51 /* ViewController.swift */,
+				2F5145E21F190D4200ACCE51 /* Main.storyboard */,
+				2F5145E51F190D4200ACCE51 /* Assets.xcassets */,
+				2F5145E71F190D4200ACCE51 /* LaunchScreen.storyboard */,
+				2F5145EA1F190D4200ACCE51 /* Info.plist */,
+			);
+			path = "BofA Test Application";
+			sourceTree = "<group>";
+		};
+		2F5145F21F190D4200ACCE51 /* BofA Test ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F5145F31F190D4200ACCE51 /* BofA_Test_ApplicationTests.swift */,
+				2F5145F51F190D4200ACCE51 /* Info.plist */,
+			);
+			path = "BofA Test ApplicationTests";
+			sourceTree = "<group>";
+		};
+		2F5145FD1F190D4200ACCE51 /* BofA Test ApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F5145FE1F190D4200ACCE51 /* BofA_Test_ApplicationUITests.swift */,
+				2F5146001F190D4200ACCE51 /* Info.plist */,
+			);
+			path = "BofA Test ApplicationUITests";
+			sourceTree = "<group>";
+		};
+		2FCAA13C1F225F6B0056BCEB /* JSONRequests */ = {
+			isa = PBXGroup;
+			children = (
+				2FCAA1381F2254730056BCEB /* AuthenticationRequest.swift */,
+				2FCAA13F1F2262340056BCEB /* Request.swift */,
+			);
+			name = JSONRequests;
+			path = "BofA Test Application";
+			sourceTree = "<group>";
+		};
+		2FCAA13D1F225F900056BCEB /* DeepLinking */ = {
+			isa = PBXGroup;
+			children = (
+				2FCAA1341F224B570056BCEB /* DeepLinkProcessor.swift */,
+				2FCAA1361F224FBF0056BCEB /* AOGDeepLinkProcessor.swift */,
+				2FFA66291F30F99E002EC388 /* AOGSetupDeepLinkProcessor.swift */,
+			);
+			name = DeepLinking;
+			path = "BofA Test Application";
+			sourceTree = "<group>";
+		};
+		2FCAA13E1F225FB00056BCEB /* AOG */ = {
+			isa = PBXGroup;
+			children = (
+				2FCAA1321F224A4D0056BCEB /* AOGAuthentication.swift */,
+			);
+			name = AOG;
+			path = "BofA Test Application";
+			sourceTree = "<group>";
+		};
+		2FFA66171F30F360002EC388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA66181F30F360002EC388 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FFA661A1F30F360002EC388 /* BoA Google Assistant Quick Login */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA66321F310509002EC388 /* BoA Google Assistant Quick Login.entitlements */,
+				2FFA661B1F30F360002EC388 /* TodayViewController.swift */,
+				2FFA661D1F30F360002EC388 /* MainInterface.storyboard */,
+				2FFA66201F30F360002EC388 /* Info.plist */,
+			);
+			path = "BoA Google Assistant Quick Login";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F5145DA1F190D4100ACCE51 /* BofA Test Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5146031F190D4200ACCE51 /* Build configuration list for PBXNativeTarget "BofA Test Application" */;
+			buildPhases = (
+				2F5145D71F190D4100ACCE51 /* Sources */,
+				2F5145D81F190D4100ACCE51 /* Frameworks */,
+				2F5145D91F190D4100ACCE51 /* Resources */,
+				2FFA66271F30F360002EC388 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FFA66221F30F360002EC388 /* PBXTargetDependency */,
+			);
+			name = "BofA Test Application";
+			productName = "BofA Test Application";
+			productReference = 2F5145DB1F190D4200ACCE51 /* BofA Test Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F5145EE1F190D4200ACCE51 /* BofA Test ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5146061F190D4200ACCE51 /* Build configuration list for PBXNativeTarget "BofA Test ApplicationTests" */;
+			buildPhases = (
+				2F5145EB1F190D4200ACCE51 /* Sources */,
+				2F5145EC1F190D4200ACCE51 /* Frameworks */,
+				2F5145ED1F190D4200ACCE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F5145F11F190D4200ACCE51 /* PBXTargetDependency */,
+			);
+			name = "BofA Test ApplicationTests";
+			productName = "BofA Test ApplicationTests";
+			productReference = 2F5145EF1F190D4200ACCE51 /* BofA Test ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F5145F91F190D4200ACCE51 /* BofA Test ApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5146091F190D4200ACCE51 /* Build configuration list for PBXNativeTarget "BofA Test ApplicationUITests" */;
+			buildPhases = (
+				2F5145F61F190D4200ACCE51 /* Sources */,
+				2F5145F71F190D4200ACCE51 /* Frameworks */,
+				2F5145F81F190D4200ACCE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F5145FC1F190D4200ACCE51 /* PBXTargetDependency */,
+			);
+			name = "BofA Test ApplicationUITests";
+			productName = "BofA Test ApplicationUITests";
+			productReference = 2F5145FA1F190D4200ACCE51 /* BofA Test ApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2FFA66151F30F360002EC388 /* BoA Google Assistant Quick Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FFA66261F30F360002EC388 /* Build configuration list for PBXNativeTarget "BoA Google Assistant Quick Login" */;
+			buildPhases = (
+				2FFA66121F30F360002EC388 /* Sources */,
+				2FFA66131F30F360002EC388 /* Frameworks */,
+				2FFA66141F30F360002EC388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BoA Google Assistant Quick Login";
+			productName = "BoA Google Assistant Quick Login";
+			productReference = 2FFA66161F30F360002EC388 /* BoA Google Assistant Quick Login.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F5145D31F190D4100ACCE51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bank of America";
+				TargetAttributes = {
+					2F5145DA1F190D4100ACCE51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VUH72KFZQ3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					2F5145EE1F190D4200ACCE51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F5145DA1F190D4100ACCE51;
+					};
+					2F5145F91F190D4200ACCE51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F5145DA1F190D4100ACCE51;
+					};
+					2FFA66151F30F360002EC388 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VUH72KFZQ3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2F5145D61F190D4100ACCE51 /* Build configuration list for PBXProject "BofA Test Application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F5145D21F190D4100ACCE51;
+			productRefGroup = 2F5145DC1F190D4200ACCE51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F5145DA1F190D4100ACCE51 /* BofA Test Application */,
+				2F5145EE1F190D4200ACCE51 /* BofA Test ApplicationTests */,
+				2F5145F91F190D4200ACCE51 /* BofA Test ApplicationUITests */,
+				2FFA66151F30F360002EC388 /* BoA Google Assistant Quick Login */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F5145D91F190D4100ACCE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5145E91F190D4200ACCE51 /* LaunchScreen.storyboard in Resources */,
+				2F5145E61F190D4200ACCE51 /* Assets.xcassets in Resources */,
+				2F5145E41F190D4200ACCE51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5145ED1F190D4200ACCE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5145F81F190D4200ACCE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FFA66141F30F360002EC388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFA661F1F30F360002EC388 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F5145D71F190D4100ACCE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCAA1331F224A4D0056BCEB /* AOGAuthentication.swift in Sources */,
+				2FCAA1391F2254730056BCEB /* AuthenticationRequest.swift in Sources */,
+				2F5145E11F190D4200ACCE51 /* ViewController.swift in Sources */,
+				2FCAA1371F224FC00056BCEB /* AOGDeepLinkProcessor.swift in Sources */,
+				2FCAA1401F2262340056BCEB /* Request.swift in Sources */,
+				2FCAA1351F224B570056BCEB /* DeepLinkProcessor.swift in Sources */,
+				2FFA662A1F30F99E002EC388 /* AOGSetupDeepLinkProcessor.swift in Sources */,
+				2F5145DF1F190D4200ACCE51 /* AppDelegate.swift in Sources */,
+				2FFA66341F310E13002EC388 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5145EB1F190D4200ACCE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5145F41F190D4200ACCE51 /* BofA_Test_ApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F5145F61F190D4200ACCE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5145FF1F190D4200ACCE51 /* BofA_Test_ApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FFA66121F30F360002EC388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFA66351F310EC5002EC388 /* Constants.swift in Sources */,
+				2FFA661C1F30F360002EC388 /* TodayViewController.swift in Sources */,
+				2FFA662E1F30FFBE002EC388 /* Request.swift in Sources */,
+				2FFA662D1F30FFB5002EC388 /* AuthenticationRequest.swift in Sources */,
+				2FFA662C1F30FFA3002EC388 /* AOGAuthentication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F5145F11F190D4200ACCE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F5145DA1F190D4100ACCE51 /* BofA Test Application */;
+			targetProxy = 2F5145F01F190D4200ACCE51 /* PBXContainerItemProxy */;
+		};
+		2F5145FC1F190D4200ACCE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F5145DA1F190D4100ACCE51 /* BofA Test Application */;
+			targetProxy = 2F5145FB1F190D4200ACCE51 /* PBXContainerItemProxy */;
+		};
+		2FFA66221F30F360002EC388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FFA66151F30F360002EC388 /* BoA Google Assistant Quick Login */;
+			targetProxy = 2FFA66211F30F360002EC388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F5145E21F190D4200ACCE51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5145E31F190D4200ACCE51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F5145E71F190D4200ACCE51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F5145E81F190D4200ACCE51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2FFA661D1F30F360002EC388 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FFA661E1F30F360002EC388 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F5146011F190D4200ACCE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F5146021F190D4200ACCE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F5146041F190D4200ACCE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BofA Test Application/BofA Test Application.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VUH72KFZQ3;
+				INFOPLIST_FILE = "BofA Test Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bankofamerica.BofA-Test-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2F5146051F190D4200ACCE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BofA Test Application/BofA Test Application.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VUH72KFZQ3;
+				INFOPLIST_FILE = "BofA Test Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bankofamerica.BofA-Test-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2F5146071F190D4200ACCE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BofA Test ApplicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bankofamerica.BofA-Test-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BofA Test Application.app/BofA Test Application";
+			};
+			name = Debug;
+		};
+		2F5146081F190D4200ACCE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BofA Test ApplicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bankofamerica.BofA-Test-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BofA Test Application.app/BofA Test Application";
+			};
+			name = Release;
+		};
+		2F51460A1F190D4200ACCE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "BofA Test ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bankofamerica.BofA-Test-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "BofA Test Application";
+			};
+			name = Debug;
+		};
+		2F51460B1F190D4200ACCE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "BofA Test ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bankofamerica.BofA-Test-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "BofA Test Application";
+			};
+			name = Release;
+		};
+		2FFA66241F30F360002EC388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "BoA Google Assistant Quick Login/BoA Google Assistant Quick Login.entitlements";
+				DEVELOPMENT_TEAM = VUH72KFZQ3;
+				INFOPLIST_FILE = "BoA Google Assistant Quick Login/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bankofamerica.BofA-Test-Application.BoA-Google-Assistant-Quick-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2FFA66251F30F360002EC388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "BoA Google Assistant Quick Login/BoA Google Assistant Quick Login.entitlements";
+				DEVELOPMENT_TEAM = VUH72KFZQ3;
+				INFOPLIST_FILE = "BoA Google Assistant Quick Login/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bankofamerica.BofA-Test-Application.BoA-Google-Assistant-Quick-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F5145D61F190D4100ACCE51 /* Build configuration list for PBXProject "BofA Test Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5146011F190D4200ACCE51 /* Debug */,
+				2F5146021F190D4200ACCE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5146031F190D4200ACCE51 /* Build configuration list for PBXNativeTarget "BofA Test Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5146041F190D4200ACCE51 /* Debug */,
+				2F5146051F190D4200ACCE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5146061F190D4200ACCE51 /* Build configuration list for PBXNativeTarget "BofA Test ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5146071F190D4200ACCE51 /* Debug */,
+				2F5146081F190D4200ACCE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5146091F190D4200ACCE51 /* Build configuration list for PBXNativeTarget "BofA Test ApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F51460A1F190D4200ACCE51 /* Debug */,
+				2F51460B1F190D4200ACCE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FFA66261F30F360002EC388 /* Build configuration list for PBXNativeTarget "BoA Google Assistant Quick Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FFA66241F30F360002EC388 /* Debug */,
+				2FFA66251F30F360002EC388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F5145D31F190D4100ACCE51 /* Project object */;
+}

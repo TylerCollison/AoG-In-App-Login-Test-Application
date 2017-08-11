@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="BoA_Google_Assistant_Quick_Login" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8B-ue-DT5">
+                                <rect key="frame" x="0.0" y="50" width="414" height="686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8Tf-Wz-0Ri">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Google Assistant Quick Login"/>
+                                <connections>
+                                    <action selector="loginButton:" destination="M4Y-Lb-cyx" eventType="primaryActionTriggered" id="xWT-iA-zEx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="U8B-ue-DT5" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="6K2-nD-tqn"/>
+                            <constraint firstItem="8Tf-Wz-0Ri" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="Ckz-B1-7Xk"/>
+                            <constraint firstItem="8Tf-Wz-0Ri" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="Do6-UN-wuy"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="U8B-ue-DT5" secondAttribute="bottom" id="FHk-ZL-BaV"/>
+                            <constraint firstAttribute="trailing" secondItem="U8B-ue-DT5" secondAttribute="trailing" id="H6S-e0-ThA"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="8Tf-Wz-0Ri" secondAttribute="bottom" id="QJy-WN-Awv"/>
+                            <constraint firstItem="U8B-ue-DT5" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="50" id="Wyg-xg-Cr5"/>
+                            <constraint firstAttribute="trailing" secondItem="8Tf-Wz-0Ri" secondAttribute="trailing" id="fIu-Hs-XCG"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="736"/>
+                    <connections>
+                        <outlet property="statusLabel" destination="U8B-ue-DT5" id="CwA-e5-gj9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266.66666666666669" y="-13.858695652173914"/>
+        </scene>
+    </scenes>
+</document>

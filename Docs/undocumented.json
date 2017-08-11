@@ -1,0 +1,68 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Tyler/Desktop/XCode Projects/BofA Test Application/BoA Google Assistant Quick Login/TodayViewController.swift",
+      "line": 12,
+      "symbol": "TodayViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Tyler/Desktop/XCode Projects/BofA Test Application/BoA Google Assistant Quick Login/TodayViewController.swift",
+      "line": 15,
+      "symbol": "TodayViewController.statusLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Tyler/Desktop/XCode Projects/BofA Test Application/BoA Google Assistant Quick Login/TodayViewController.swift",
+      "line": 17,
+      "symbol": "TodayViewController.USER_ID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Tyler/Desktop/XCode Projects/BofA Test Application/BoA Google Assistant Quick Login/TodayViewController.swift",
+      "line": 19,
+      "symbol": "TodayViewController.loginButton(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Tyler/Desktop/XCode Projects/BofA Test Application/BoA Google Assistant Quick Login/TodayViewController.swift",
+      "line": 36,
+      "symbol": "TodayViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Tyler/Desktop/XCode Projects/BofA Test Application/BoA Google Assistant Quick Login/TodayViewController.swift",
+      "line": 45,
+      "symbol": "TodayViewController.widgetPerformUpdate(completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Tyler/Desktop/XCode Projects/BofA Test Application/BofA Test Application/AuthenticationRequest.swift",
+      "line": 21,
+      "symbol": "AuthenticationRequest.access_token",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Tyler/Desktop/XCode Projects/BofA Test Application/BofA Test Application/AuthenticationRequest.swift",
+      "line": 23,
+      "symbol": "AuthenticationRequest.init(conversationId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Tyler/Desktop/XCode Projects/BofA Test Application/Constants.swift",
+      "line": 14,
+      "symbol": "Constants",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Tyler/Desktop/XCode Projects/BofA Test Application"
+}
